@@ -25,10 +25,16 @@
   background-color: var(--color-grey-dark-1);
 
   flex: 0 0 18%; // sirka item (flex-basis) ve zkracene formě
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hotel-view {
   background-color: #fff;
 
   flex: 1; // dovolime item rust (flex-grow) ve zkracenem zapisu
+
+  height: 80rem; // pouze docasne
 }
